@@ -1,0 +1,74 @@
+
+body{
+    background: 1F8D85;
+}
+
+.container1 {
+  width: 100%;
+  height: 200px;
+  background: #32526E;
+}
+.zigzag {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.zigzag:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+}
+.container2 {
+  background: #81B9C3;
+}
+.container2:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #81B9C3 33.333%, #81B9C3 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #81B9C3 33.333%, #81B9C3 66.667%,
+      transparent 66.667%
+    );
+  background-size: 20px 40px;
+}
+.container3 {
+  background: #41C3AC;
+}
+.container3:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #41C3AC 33.333%, #41C3AC 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #41C3AC 33.333%, #41C3AC 66.667%,
+      transparent 66.667%
+    );
+  background-size: 20px 40px;
+}
+.container4 {
+  background: #CCC;
+}
+.container4:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #CCC 33.333%, #CCC 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #CCC 33.333%, #CCC 66.667%,
+      transparent 66.667%
+    );
+  background-size: 20px 40px;
+}
