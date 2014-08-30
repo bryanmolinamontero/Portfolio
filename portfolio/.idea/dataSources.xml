@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2620473253">
+    <data-source source="LOCAL" name="Django default" uuid="9354ab3e-b1bc-44d9-8b6c-cd8bc7517a54">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Programacion\Portfolio\portfolio\bryanux_bd</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
