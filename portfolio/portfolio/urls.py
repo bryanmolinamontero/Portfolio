@@ -17,3 +17,4 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', index),
 )
+handler404 = 'bryanux.views.handler404'

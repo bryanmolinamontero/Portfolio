@@ -1,6 +1,6 @@
 # Django settings for portfolio project.
 
-DEBUG = True
+DEBUG = False #False servidor, true local
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -66,7 +66,7 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
-STATIC_URL = '/static/' if DEBUG else 'http://127.0.0.1:8000/static/'
+STATIC_URL = '/static/' if DEBUG else 'http://bryanmolina.alwaysdata.net/static/'
 # Additional locations of static files
 STATICFILES_DIRS = (
     '/portfolio/static/', 'static/'
